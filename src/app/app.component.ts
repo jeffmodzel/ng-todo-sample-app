@@ -14,4 +14,9 @@ export class AppComponent {
     { id: 2, name: 'feed dog', description: 'feed the dog', date: new Date() },
     { id: 3, name: 'watch tv', description: 'need to watch my favorite show', date: new Date() },
   ];
+
+  addToDoHandler(t: ToDo) {
+    console.log('addToDoHandler() ' + JSON.stringify(t));
+    this.ToDos.push(t);
+  }
 }

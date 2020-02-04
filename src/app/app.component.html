@@ -9,16 +9,14 @@
 
   <div class="row">
     <div class="twelve columns">
-      <hr>
-    </div>
-  </div>
-
-  
-  <div class="row">
-    <div class="twelve columns">
       <app-todo-list [todos]=ToDos></app-todo-list>
     </div>
   </div>
 
+  <div class="row">
+    <div class="twelve columns">
+      <app-create-todo (todoHasBeenAdded)="addToDoHandler($event)"></app-create-todo>
+    </div>
+  </div>
 
 </div>
