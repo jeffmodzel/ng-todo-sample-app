@@ -2,8 +2,14 @@
 Angular sample To Do List application
 
 
+https://www.tektutorialshub.com/angular-2-tutorial/
+
+Using Skeleton CSS
+https://github.com/dhg/Skeleton
+http://getskeleton.com/
 
 
+# 
 
 # ToDoApp
 

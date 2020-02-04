@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/skeleton.css",
               "src/styles.css"
             ],
             "scripts": []
