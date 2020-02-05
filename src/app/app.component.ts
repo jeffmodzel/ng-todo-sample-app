@@ -17,6 +17,17 @@ export class AppComponent {
 
   addToDoHandler(t: ToDo) {
     console.log('addToDoHandler() ' + JSON.stringify(t));
+
+    // get new id
+    let maxId = 0;
+    this.ToDos.forEach((x) => {
+      if (x.id > maxId) {
+        maxId = x.id;
+      }
+    });
+
+    t.id = maxId + 1;
+
     this.ToDos.push(t);
   }
 }

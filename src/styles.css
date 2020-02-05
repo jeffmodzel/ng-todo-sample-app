@@ -1,4 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* 
+    Dark them for skeleton - ripped off from material
+    https://material.io/design/color/dark-theme.html#ui-application
+*/
+
+
+/*
+body {
+    color: #FFFFFF; 
+    background-color: #121212;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 1px solid #FFFFFF;}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover {
+    color: #BB86FC;
+    border-color: #BB86FC;
+    outline: 0; }
+
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+    color: #FFFFFF;
+    border-color: #BB86FC;
+    outline: 0; }
+
+
+.button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #BB86FC;
+    border-color: #BB86FC; }
+
+    */
 .redDiv{
     background:red;
 }

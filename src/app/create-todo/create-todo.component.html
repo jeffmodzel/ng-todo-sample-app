@@ -1,6 +1,21 @@
+<h2>{{title}}</h2>
 
+<form [formGroup]="todoForm" (ngSubmit)="onSubmit()" novalidate>
+    <div class="row">
+      <div class="six columns">
+        <label for="name">Name</label>
+        <input class="u-full-width" type="text" placeholder="name of your todo" id="name" name="name" formControlName="name">
+      </div>
+      <div class="six columns">
+        <label for="date">Date</label>
+        <input class="u-full-width" type="date" placeholder="date of your todo (mm/dd/yyyy)" id="date" name="date" formControlName="date">
+      </div>
+    </div>
+    <label for="description">Description</label>
+    <textarea class="u-full-width" placeholder="Description of your to do here..." id="description" name="description" formControlName="description"></textarea>
+    <input class="button-primary" type="submit" value="Submit" [disabled]="!todoForm.valid">
+  </form>
 
-<hr>
-<h2>Add a new todo</h2>
+<!--
 <button class="button-primary" (click)='buttonClicked()'>Click me</button>
-<hr>
+-->
